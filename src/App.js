@@ -1,9 +1,9 @@
-function App() {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold">We're gonna build NETFLIX gpt</h1>
-    </div>
-  );
+import Body from "./components/Body";
+
+const App = ()=>{
+  return(
+    <Body/>
+  )
 }
 
 export default App;

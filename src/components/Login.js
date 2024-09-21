@@ -53,36 +53,3 @@ export default Login
 
 
 
-// const Login = () => {
-//   return (
-//     <div >
-//       <Header className="relative min-h-screen"/>
-//       <img 
-//         src="https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/IN-en-20240916-TRIFECTA-perspective_72df5d07-cf3f-4530-9afd-8f1d92d7f1a8_large.jpg"
-//         alt="bg-image"
-//         className="absolute inset-0 object-cover w-full h-full"
-//       />
-//       <form className="absolute bg-black p-12 rounded text-white shadow-lg">
-//         <input 
-//           type="text"
-//           placeholder="First Name"
-//           className="p-2 m-2 border border-gray-300 rounded"
-//         />
-//         <input 
-//           type="text"
-//           placeholder="Email Address"
-//           className="p-2 m-2 border border-gray-300 rounded"
-//         />
-//         <input 
-//           type="password"
-//           placeholder="Password"
-//           className="p-2 m-2 border border-gray-300 rounded"
-//         />
-//         <button className="w-full p-4 bg-blue-500 text-white rounded hover:bg-blue-600">Sign In</button>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default Login;
-

@@ -16,8 +16,20 @@
 - Implemented Sign Out
 - Update Profile
 - Bug Fix: 
-1. Sign Up user display name and profile       picture update
+1. Sign Up user display name and profile picture update
 2. If the user is not logged in, redirect /browse page to Login page and vice-versa
+- Unsubscribed to onAuthStateChanged callback
+- Add hardcoded values to the constants file
+- Get data from TMDB now playing movies list API
+- Created custom hook for Now Playing Movies
+- Create movie slice
+- Update store with movies data
+- Planning for Main container and Secondary Container
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded the yt video and made it auto play and mute
+- Tailwind classes to make main container look more awesome
+
 
 # Features
 - Login/SignUp Page

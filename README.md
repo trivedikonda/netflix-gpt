@@ -38,6 +38,14 @@
 - GPT Search Pge
 - GPT Search Bar
 - Multi-language Feature in our app
+- GPT Search key(open ai)
+- fetched gpt movie suggestions from TMDB 
+- Recreated the GPT slice and added data
+- Reused movie list component to make movie suggestion
+- Memoization
+- Added .env file
+- Added .env to .gitignore
+- made our site responsive
 
 
 # Features

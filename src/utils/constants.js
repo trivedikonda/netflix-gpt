@@ -9,7 +9,7 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MjhjOGJkYjI5ZDkwNzczOGYxYWU4OTNlYWQ2YTQ4NCIsIm5iZiI6MTcyNzI4NzMxNi4zNDE0NTQsInN1YiI6IjY2ZjQxNmFjNTgyMGQyOGNmYjY5ZmJkYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FcNtxqZk0EDtzrUyH4UjwigkS9DWeQtXeUKm4NeUDCA'
+      Authorization: 'Bearer' + process.env.REACT_APP_TMDB_KEY
     }
   };
 
@@ -23,4 +23,9 @@ export const SUPPORTED_LANGUAGES=[
 ];
 
 
-export const OPENAI_KEY = "sk-QII3XpLcEQho-4rIZr_xkAxYOjB3PG1IL0op-BzCeiT3BlbkFJS4sP5P3c77_T3MGzJjGv6JJKkIhi09MokxMMYFVcwA"
+// export const OPENAI_KEY = "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"
+
+
+export const ANTHROPIC_API_KEY = process.env.REACT_APP_ANTHROPIC_API_KEY
+
+// export const ANTHROPIC_API_KEY="AIzaSyA8cScHhiz9jNZohViRjtWjbqwWjNJwuMc"

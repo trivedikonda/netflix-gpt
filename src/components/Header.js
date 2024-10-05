@@ -61,15 +61,17 @@ const Header = () => {
     <div 
     className="absolute w-screen px-8 py-2 
     z-10 bg-gradient-to-b from-black 
-    flex justify-between"
+    flex flex-col md:flex-row 
+    md:justify-between
+    justify-center"
     >
       <img 
-      className="w-44 shadow-lg"
+      className="w-44 shadow-lg mx-auto md:mx-0"
       src={LOGO}
       alt="netflix-logo"
       />
 
-      {user&&(<div className="flex justify-between">
+      {user&&(<div className="flex justify-between p-2">
         {showGptSearch&&
         <select 
         onChange={handleLanguageChange}
@@ -82,12 +84,12 @@ const Header = () => {
 
         <button className="p-2 m-2 text-white w-30 rounded h-10 mt-4 bg-purple-900"
         onClick={handleGptSearchClick}>
-          {showGptSearch?"Home Page":"GPT Search"}
+          {showGptSearch?"Home":"GPT Search"}
           </button>
         <img
         src={user.photoURL}
         alt="user-logo"
-        className="w-10 h-10 mt-4 mr-5 rounded-full"/>
+        className="w-10 h-10 mt-4 mr-5 rounded-full hidden md:block"/>
 
         <button 
         onClick={handleSignOut}

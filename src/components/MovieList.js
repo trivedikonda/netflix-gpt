@@ -6,7 +6,7 @@ const MovieList = ({title,movies}) => {
       <h1 className="text-md md:text-xl font-bold py-4 text-white">{title}</h1>
         <div className="flex overflow-x-scroll">
             <div className="flex">
-              {movies.map(movie=>(
+              {movies?.map(movie=>(
                 <MovieCard key={movie.id} posterPath={movie.poster_path}/>
               ))}   
             </div>
